@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>To-Do App</h1>
+    <button id="darkModeToggle">Dark Mode</button>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="search" placeholder="Search tasks...">
+    <button id="addTaskBtn">Add Task</button>
+  </section>
+
+  <section id="taskContainer"></section>
+
+  <!-- Add/Edit Task Modal -->
+  <div id="taskModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle">Add Task</h2>
+      <form id="taskForm">
+        <input type="hidden" id="taskId">
+        <label>Title:</label>
+        <input type="text" id="title" required>
+        <label>Description:</label>
+        <textarea id="description" required></textarea>
+        <label>Category:</label>
+        <input type="text" id="category" required>
+        <label>Due Date:</label>
+        <input type="date" id="dueDate" required>
+        <button type="submit">Save Task</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
