@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Buy groceries",
+      "description": "Milk, eggs, bread",
+      "category": "personal",
+      "dueDate": "2025-12-30",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Finish project report",
+      "description": "Complete final draft",
+      "category": "work",
+      "dueDate": "2025-12-25",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Call mom",
+      "description": "Check in and chat",
+      "category": "personal",
+      "dueDate": "2025-12-24",
+      "completed": true
+    }
+  ]
+}
